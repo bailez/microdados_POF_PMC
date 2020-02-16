@@ -1,11 +1,6 @@
-'''
-TABELA DO FERNANDO
-FAMILIA, INSS, IPVA, BOLSA FAMILIA, N PESSOAS, PESOS, RENDA TOTAL, DESPESA DE CONSUMO
-'''
-# %%
 import pandas as pd
 
-path = r'/home/bailez/Downloads/Dados/'
+path = r' insira pasta com dados aqui'
 
 desp_col = path + "DESPESA_COLETIVA.csv"
 despesas = pd.read_csv(desp_col)
